@@ -15,9 +15,9 @@ int main()
 	TreeNode root(4,&n2,&n3);  // true
 
 	TreeNode m7(7);
-	TreeNode m6(7);
+	TreeNode m6(5);
 	TreeNode m5(3);
-	TreeNode m4(1);
+	TreeNode m4(8);  // 8<2
 	TreeNode m3(6,&m6,&m7);
 	TreeNode m2(2,&m4,&m5);
 	TreeNode root2(4,&m2,&m3);  // false

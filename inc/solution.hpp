@@ -7,7 +7,7 @@
 class Solution
 {
     public:
-        bool minMaxTracker(TreeNode*,TreeNode*,TreeNode*);
+        bool validVals(TreeNode*,TreeNode*,TreeNode*);
         bool isValidBST(TreeNode*);
 };
 

@@ -22,9 +22,15 @@ int main()
 	TreeNode m2(2,&m4,&m5);
 	TreeNode root2(4,&m2,&m3);  // false
 
+	TreeNode q6(2);  // 2<3
+	TreeNode q3(4,&q6,nullptr);
+	TreeNode q2(1,nullptr,nullptr);
+	TreeNode root3(3,&q2,&q3);  // false
+
 	Solution sol;
 	std::cout << sol.isValidBST(&root);
 	std::cout << sol.isValidBST(&root2);
+	std::cout << sol.isValidBST(&root3);
 	return 0;
 }
 
